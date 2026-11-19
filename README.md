@@ -59,6 +59,10 @@ Market v2:
 
 Mint payments are split by fixed constants in the contract source, which no one can change after deployment. dotBots pays no yield, dividend or return of any kind. Nothing here is investment advice.
 
+How each mint payment is divided is written in src/DotBots.sol; this README does not restate it. No yield and no return is promised to anyone.
+
+The official dotBots site always mints with referrer = 0x0, so it does not use the referral path in the contract. The site has no screen for claim() or claimReferral(), and dotBots does not promote either.
+
 ## Risk warning
 
 NFTs and crypto are risky. Prices can go to zero. Every transaction is signed in your own wallet; check it before you confirm. dotBots never asks for your seed phrase, private key or a QR pairing.
