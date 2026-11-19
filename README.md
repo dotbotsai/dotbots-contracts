@@ -26,6 +26,13 @@ The files in this repo are byte-identical to the source verified on BscScan and 
 
 Owner of both contracts: Safe multisig 0xA9c76FeEcdA249BbE14d3a330a3739821f69d910 (2 of 3 signers). Ownership changes use a two-step transfer.
 
+Safe multisig (the owner):
+
+- Safe v1.4.1 at 0xA9c76FeEcdA249BbE14d3a330a3739821f69d910 on BNB Smart Chain.
+- 3 signers, 2 signatures needed for every owner action. No single key can act alone.
+- No Safe modules and no transaction guard are enabled, so nothing can bypass the 2 of 3 rule.
+- Every Safe transaction and its signatures are public on chain.
+
 dotBots:
 
 | Function | Who | What it can do |
